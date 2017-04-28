@@ -1,0 +1,23 @@
+#Custom Aliases by Goz
+
+alias make-alias="gedit /etc/bash.bashrc"	#opens bash.bashrc with gedit
+						#Needs sudo
+
+#shorter apt-get commands
+alias up="apt-get update"	#Needs sudo
+alias upg="apt-get upgrade"	#Needs sudo
+alias d-upg="apt-get dist-upgrade"	#Needs sudo
+alias a-rm="apt-get autoremove"	#Needs sudo
+alias fix="apt-get -f install"	#Needs sudo
+alias big-up="apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get autoremove && apt-get -f install"	#Needs sudo
+alias repo="apt-add-repository"	#Needs sudo
+alias repo-rm="apt-add-repository --remove"	#Needs sudo
+alias instl="apt-get install"	#Needs sudo
+alias instl-s="apt-get --install-suggests install"	#Needs sudo
+alias instl-r="apt-get --install-recommends install"	#Needs sudo
+alias instl-a="apt-get --install-suggests --install-recommends install"	#Needs sudo
+
+#video card info
+alias vcard="lspci | grep VGA"	#Shows some info about the vcard
+alias vcard-v="lshw -C video"	#Shows a lot of info about the vcard
+				#Needs sudo

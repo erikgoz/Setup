@@ -1,0 +1,1 @@
+cat allAliases.txt >> /etc/bash.bashrc
