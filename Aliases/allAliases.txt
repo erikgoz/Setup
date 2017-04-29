@@ -1,23 +1,25 @@
+
 #Custom Aliases by Goz
 
-alias make-alias="gedit /etc/bash.bashrc"	#opens bash.bashrc with gedit
-						#Needs sudo
+alias make-alias="sudo gedit /etc/bash.bashrc"	#opens bash.bashrc with gedit
+											#This needs sudo to run
+						
 
 #shorter apt-get commands
-alias up="apt-get update"	#Needs sudo
-alias upg="apt-get upgrade"	#Needs sudo
-alias d-upg="apt-get dist-upgrade"	#Needs sudo
-alias a-rm="apt-get autoremove"	#Needs sudo
-alias fix="apt-get -f install"	#Needs sudo
-alias big-up="apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get autoremove && apt-get -f install"	#Needs sudo
-alias repo="apt-add-repository"	#Needs sudo
-alias repo-rm="apt-add-repository --remove"	#Needs sudo
-alias instl="apt-get install"	#Needs sudo
-alias instl-s="apt-get --install-suggests install"	#Needs sudo
-alias instl-r="apt-get --install-recommends install"	#Needs sudo
-alias instl-a="apt-get --install-suggests --install-recommends install"	#Needs sudo
+alias up="sudo apt-get update"	
+alias upg="sudo apt-get upgrade"	
+alias d-upg="sudo apt-get dist-upgrade"	
+alias a-rm="sudo apt-get autoremove"	
+alias fix="sudo apt-get -f install"	
+alias big-up="sudo apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get autoremove && apt-get -f install"	
+alias repo="sudo apt-add-repository"	
+alias repo-rm="sudo apt-add-repository --remove"	
+alias instl="sudo apt-get install"	
+alias instl-s="sudo apt-get --install-suggests install"	
+alias instl-r="sudo apt-get --install-recommends install"	
+alias instl-a="sudo apt-get --install-suggests --install-recommends install"	
 
 #video card info
 alias vcard="lspci | grep VGA"	#Shows some info about the vcard
-alias vcard-v="lshw -C video"	#Shows a lot of info about the vcard
-				#Needs sudo
+alias vcard-v="sudo lshw -C video"	#Shows a lot of info about the vcard
+				

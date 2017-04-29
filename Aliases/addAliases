@@ -1,1 +1,2 @@
+echo "Hint: 'addAliases' needs 'sudo' to run"
 cat allAliases.txt >> /etc/bash.bashrc
