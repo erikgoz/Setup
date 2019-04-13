@@ -6,7 +6,6 @@
 
 sudo apt-get install bleachbit
 
-
 #repos
 sudo add-apt-repository ppa:teejee2008/ppa	#timeshift
 sudo add-apt-repository ppa:dolphin-emu/ppa	#dolphin emulator
